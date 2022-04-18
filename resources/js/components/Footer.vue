@@ -1,13 +1,11 @@
 <template>
- <main>
-   <router-view></router-view>
-  </main>
+  <div>Footer</div>
 </template>
 
 <script>
 export default {
-   name: "Main",
-};
+    name: 'Footer'
+}
 </script>
 
 <style>
