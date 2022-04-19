@@ -35,7 +35,14 @@ class PostController extends Controller
                 'result' => 'Nessun risultato trovato',
                 'success' => false
             ]);
+        } else {
+            return response()->json(
+                [
+                    'result' => 'Nessun risultato trovato',
+                    'success' => false
+                ]   
+            );
+
         }
     }
-
 }
